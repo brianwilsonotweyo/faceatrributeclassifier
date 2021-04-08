@@ -65,6 +65,6 @@ categories =['freakles', 'glasses', 'hair_color','hair_top', 'wrinkles']
 print('Accuracy: ', accuracy)
 print('Prediction is: ', categories[prediction[1]])
 
-mypet = xtest[0].reshape(50,50)
-plt.imshow(mypet, cmap='gray')
+myface = xtest[0].reshape(50,50)
+plt.imshow(myface, cmap='gray')
 plt.show()
