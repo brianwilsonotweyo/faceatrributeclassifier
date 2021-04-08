@@ -10,7 +10,7 @@ from sklearn.svm import SVC
 # # Add the directory here to where the images are stored use double spaces i.e \\
 # dir = 'C:\\Users\\otweyo brian wilson\\Desktop\\Faces\\dataset'
 # categories =['freakles', 'glasses', 'hair_color','hair_top', 'wrinkles']
-# # define cat by zero and dog by one same for features
+# # define freakles by zero and glasses by one same for features and so on
 
 # data = []
 # for category in categories:
